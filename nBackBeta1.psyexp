@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.1.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1088, 614]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="n-back-testing" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="end">
+      <TextComponent name="thanks">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="thanks" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="This is the end of the experiment. Thank you for your time. Please remember to fill out the accompanying questionnaire." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="codeFix2">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="document.documentElement.style.cursor = 'auto';" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="codeFix2" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instructions2">
+      <TextComponent name="instr2">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instr2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="This is the end of 1-back trials. You are about to start 2-back trials. This means that instead of pressing ‘space’ whenever the square appears in the same position as on the position on one trial before, you are required to press ‘space’ whenever the square appears in the same position as on the position two trials before. For example if the square appeared in left down corner on trial 1, you should press ‘space’ if the square appears in the left down corner on trial 3. Press ‘s’ to continue." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="keyResp2">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="keyResp2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="fixation2">
+      <TextComponent name="fix2">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="fix2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="trial2">
+      <ImageComponent name="trial2Grid">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="grid.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="trial2Grid" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[0.6, 0.6]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <PolygonComponent name="trial2Square">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="trial2Square" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="[loc1,loc2]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="[0.15,0.15]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="trial2Fix">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="trial2Fix" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="trial2Resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="$corrAns" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="trial2Resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions1">
+      <TextComponent name="instr1">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instr1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0,0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="In this task you will be required to press ‘space’ if the white square appeared in the same location as the location on the last trial. For example if the square was in the left down corner on trial 1 and then it appeared in the same location on trial 2, press ‘space’. Otherwise, do not respond. Press ‘s’ to continue." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="keyResp1">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="keyResp1" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="codeFix1">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="document.documentElement.style.cursor = 'none';" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="codeFix1" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="fixation1">
+      <TextComponent name="fix1">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="fix1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instructions3">
+      <TextComponent name="instr3">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instr3" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="This is the end of 2-back trials. You are about to start 3-back trials. This means that instead of pressing ‘space’ whenever the square appears in the same position as on the position on two trials before, you are required to press ‘space’ whenever the square appears in the same position as on the position three trials before. For example if the square appeared in left down corner on trial 1, you should press ‘space’ if the square appears in the left down corner on trial 4. Press ‘s’ to continue." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="keyResp3">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="keyResp3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial3">
+      <ImageComponent name="trial3Grid">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="grid.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="trial3Grid" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.6, 0.6)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <PolygonComponent name="trial3Square">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="trial3Square" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="[loc1,loc2]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(0.15, 0.15)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="trial3Fix">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="trial3Fix" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="trial3Resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="$corrAns" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="trial3Resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="fixation3">
+      <TextComponent name="fix3">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="fix3" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="trial">
+      <ImageComponent name="trialGrid">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="grid.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="trialGrid" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="[0.6, 0.6]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <PolygonComponent name="feedback">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="feedback" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="[loc1, loc2]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="trialResp.keys == 'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.3" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <PolygonComponent name="trialSquare">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="trialSquare" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0.0" valType="code"/>
+        <Param name="pos" updates="set every repeat" val="[loc1,loc2]" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="[0.15,0.15]" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="trialFix">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="trialFix" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="trialResp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="$corrAns" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="trialResp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((corrAns === &quot;space&quot;)) {&amp;#10;    feedback.fillColor = &quot;green&quot;;&amp;#10;} else {&amp;#10;    feedback.fillColor = &quot;red&quot;;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if corrAns == 'space':&amp;#10;    feedback.fillColor='green'&amp;#10;else:&amp;#10;    feedback.fillColor='red'" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions1"/>
+    <Routine name="fixation1"/>
+    <LoopInitiator loopType="TrialHandler" name="trials1">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 1)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 2)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 3)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 4)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 5)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 6)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 7)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 8)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 9)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 10)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 11)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 12)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 13)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 14)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 15)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 16)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 17)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 18)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 19)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 20)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 21)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 22)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 23)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 24)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 25)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 26)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 27)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 28)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 29)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 30)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 31)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 32)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 33)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 34)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 35)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 36)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 37)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 38)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 39)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 40)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 41)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 42)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 43)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 44)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 45)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 46)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 47)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 48)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 49)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 50)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 51)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 52)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 53)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 54)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 55)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 56)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 57)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 58)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 59)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 60)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="nBackCond1.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials1" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials1"/>
+    <Routine name="instructions2"/>
+    <Routine name="fixation2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 61)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 62)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 63)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 64)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 65)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 66)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 67)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 68)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 69)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 70)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 71)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 72)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 73)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 74)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 75)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 76)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 77)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 78)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 79)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 80)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 81)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 82)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 83)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 84)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 85)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 86)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 87)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 88)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 89)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 90)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 91)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 92)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 93)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 94)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 95)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 96)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 97)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 98)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 99)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 100)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 101)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 102)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 103)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 104)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 105)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 106)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 107)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 108)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 109)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 110)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 111)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 112)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 113)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 114)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 115)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 116)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 117)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 118)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 119)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 120)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="nBackCond2.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials2"/>
+    <Routine name="instructions3"/>
+    <Routine name="fixation3"/>
+    <LoopInitiator loopType="TrialHandler" name="trials3">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 121)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 122)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 123)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 124)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 125)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 126)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 127)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 128)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 129)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 130)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 131)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 132)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 133)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 134)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 135)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 136)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 137)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 138)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 139)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 140)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 141)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 142)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 143)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 144)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 145)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 146)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 147)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 148)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 149)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 150)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 151)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 152)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 153)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 154)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 155)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 156)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 157)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 158)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 159)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 160)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 161)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 162)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 163)]), OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 164)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 165)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 166)]), OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 167)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 168)]), OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 169)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 170)]), OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 171)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 172)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 173)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 174)]), OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 175)]), OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 176)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 177)]), OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 178)]), OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 179)]), OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 180)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="nBackCond3.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials3"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
